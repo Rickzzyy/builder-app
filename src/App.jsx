@@ -1,16 +1,13 @@
-import { OrbitControls } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
+import Experience from './components/Experience'
 
 function App() {
 	return (
 		<>
-			<Canvas camera={{ position: [3, 3, 3] }}>
-				<color attach='background' args={['#333333']} />
-				<OrbitControls />
-				<mesh>
-					<boxGeometry args={[0.5, 0.5, 0.5]} />
-					<meshNormalMaterial />
-				</mesh>
+			<Canvas>
+				<color attach='background' args={['#213547']} />
+				<fog attach='fog' args={['#213547', 10, 20]} />
+				<Experience />
 			</Canvas>
 		</>
 	)
