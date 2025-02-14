@@ -36,7 +36,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository
 
-git clone https://github.com/YOUR_GITHUB_USERNAME/builder-app.git
+git clone https://github.com/Rickzzyy/builder-app.git
 cd builder-app
 
 2. Install dependencies
